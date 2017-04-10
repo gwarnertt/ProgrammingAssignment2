@@ -1,6 +1,6 @@
 cacheSolve<- function(y,...){
     inverse <- y$getInverse()
-    if(is.null(inverse)){
+    if(!is.null(inverse)){
     message("getting inverse")
     return(inverse)
 }
